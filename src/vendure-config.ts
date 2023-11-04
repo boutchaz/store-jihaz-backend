@@ -14,6 +14,7 @@ const IS_DEV = process.env.APP_ENV === 'dev';
 
 export const config: VendureConfig = {
     apiOptions: {
+        hostname: '0.0.0.0',
         port: 80,
         adminApiPath: 'admin-api',
         shopApiPath: 'shop-api',
