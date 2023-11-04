@@ -1,7 +1,7 @@
 {
   "name": "jihaz",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev:server": "ts-node ./src/index.ts",
     "dev:worker": "ts-node ./src/index-worker.ts",
