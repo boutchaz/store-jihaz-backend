@@ -87,7 +87,7 @@ export const config: VendureConfig = {
             route: 'admin',
             port: 3002,
             adminUiConfig: {
-                apiPort: 80,
+                apiPort: 'auto',
             },
         }),
     ],
